@@ -1,6 +1,6 @@
 function messageChecker() {
     const message = prompt("Enter the message you want to verify:");
-    const hasAI = message.includes("AI") || message.includes("Ai") || message.includes("aI");
+    const hasAI = message.includes("AI"), message.includes("Ai"), message.includes("aI");
     const hasFR = message.includes("FR");
 
     let result;
